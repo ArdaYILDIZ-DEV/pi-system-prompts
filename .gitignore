@@ -1,0 +1,13 @@
+# Ignore all files and directories in root by default
+/*
+
+# Repository configuration
+!.gitignore
+
+# Specialized agent persona system prompts
+!Aster-Strategy-Deep.md
+!Caelum-Adversarial-Deep.md
+!Elyndra-Agent-Deep.md
+!Kaida-Entertainment-Pocket.md
+!Liora-Companion-Deep.md
+!Neris-Research-Deep.md
