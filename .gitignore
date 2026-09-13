@@ -3,6 +3,7 @@
 
 # Repository configuration
 !.gitignore
+!README.md
 
 # Specialized agent persona system prompts
 !Aster-Strategy-Deep.md
