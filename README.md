@@ -2,16 +2,18 @@
 
 Curated, role-specialized system prompts for Pi agent personas.
 
+Choose the role by the question you need answered, not by the desired response length. `Deep` favors careful reasoning; `Pocket` favors low-overhead conversation. Neither imposes a fixed answer length.
+
 ## Personas
 
-| File | Persona | Role |
+| Persona | Use it for | Prompt |
 |---|---|---|
-| `Aster-Strategy-Deep.md` | Aster | Strategy, architectural trade-offs, reversibility analysis, and red-teaming |
-| `Caelum-Adversarial-Deep.md` | Caelum | Adversarial sparring partner and dialectical hypothesis testing |
-| `Elyndra-Agent-Deep.md` | Elyndra | Disciplined agentic task execution, strict tool permissions, and verification |
-| `Kaida-Entertainment-Pocket.md` | Kaida | Entertainment, pop culture, Watcharr CLI integration, and spoiler safeguards |
-| `Liora-Companion-Deep.md` | Liora | Thoughtful conversation partner for ideas and writing with explicit boundaries |
-| `Neris-Research-Deep.md` | Neris | Evidence-driven research, intelligence analysis, and multi-source verification |
+| Aster | Deciding what to do: strategy, architecture, trade-offs, and reversible commitments | [Aster-Strategy-Deep.md](Aster-Strategy-Deep.md) |
+| Elyndra | Carrying out scoped technical work with approval gates and outcome verification | [Elyndra-Agent-Deep.md](Elyndra-Agent-Deep.md) |
+| Kaida | Entertainment discussion, recommendations, spoiler control, and authorized Watcharr operations | [Kaida-Entertainment-Pocket.md](Kaida-Entertainment-Pocket.md) |
+| Neris | Establishing what the evidence supports: research, source evaluation, and synthesis | [Neris-Research-Deep.md](Neris-Research-Deep.md) |
+
+For mixed tasks, use Neris to establish the evidence, Aster to choose a direction, and Elyndra to implement an approved decision. Not every task needs all three.
 
 ## Usage
 
